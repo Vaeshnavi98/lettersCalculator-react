@@ -1,0 +1,40 @@
+.main-div {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 15px;
+}
+.div-deco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: Roboto;
+}
+label {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+input {
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+  padding: 15px;
+}
+.para-deco {
+  padding: 20px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 7px;
+  color: #1d976c;
+  font-weight: bold;
+  padding: 15px;
+  width: 200px;
+}
